@@ -34,10 +34,10 @@ function Portfolio(props) {
                     </div>
                     <div className="p-2" data-aos="fade-right" data-aos-duration="3000">
                         <h3>Pitchcatch</h3>
-                        <a href="https://timmcmullan.github.io/HW03_pwgen/" target="_blank">
+                        <a href="https://JosephLMurray.github.io/rookies" target="_blank">
                             <img id="fifty" src={pitchcatch} style={{ width: "80%" }} alt="Pitch.Catch" /></a>
                         <p>A Group Project: Create the ultimate Fantasy Baseball Team !!</p>
-                        <p className="github"><a href="https://timmcmullan.github.io/HW03_pwgen/" target="_blank">Github</a></p>
+                        <p className="github"><a href="https://JosephLMurray.github.io/rookies" target="_blank">Github</a></p>
                     </div>
                     <div className="p-2" data-aos="fade-right" data-aos-duration="3000">
                         <h3>ReadMe Generator</h3>
@@ -59,11 +59,11 @@ function Portfolio(props) {
                     </div>
                     <div className="p-2" data-aos="fade-left" data-aos-duration="3000">
                         <h3>Route My Day</h3>
-                        <a href="https://timmcmullan.github.io/HW_01_Code_Refactor/" target="_blank">
+                        <a href="https://odisclemons.github.io/route-my-day/" target="_blank">
                             <img id="twentyFive" src={routemyday} style={{ width: "80%", height: "50%" }} alt="Route My Day" /></a>
                         <div>
                             <p>Everything you want to do today, routed for your convenience</p>
-                            <p className="github"><a href="https://timmcmullan.github.io/HW_01_Code_Refactor/" target="_blank">Github</a></p>
+                            <p className="github"><a href="https://odisclemons.github.io/route-my-day/" target="_blank">Github</a></p>
                         </div>
                     </div>
                     <div className="p-2" data-aos="fade-left" data-aos-duration="3000">
