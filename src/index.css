@@ -1,0 +1,180 @@
+main {
+	margin: 0 auto;
+	max-width: 90%;
+  padding: 50px 30px;
+}
+
+:root {
+  --primary: #ff5757;
+  --secondary: #ff1616;
+  --tertiary: #ff66c4;
+  --fourth: #8c52ff;
+  --fifth: #03989e;
+}
+
+body {
+  margin: 0;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+button {
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0.25rem 1rem;
+  border-radius: .5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0 1px;
+  background-color: var(--secondary);
+}
+
+button:hover {
+  opacity: .8;
+}
+
+/* hero stylings */
+
+.heroContainer {
+  min-width: 100%; 
+  height: 650px; 
+  background-image: url(./assets/images/hero.jpg);
+  color: white;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+}
+
+/* navbar stylings */
+.navbar {
+  background-color: darkgray;
+  color: white;
+}
+
+.navbar a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.navbar btn {
+  border-radius: 5px;
+}
+
+.navbar btn:hover {
+  background: rgb(189,99,237);
+  background: linear-gradient(18deg, rgba(189,99,237,1) 26%, rgba(48,127,214,1) 56%, rgba(172,236,163,1) 91%);
+}
+
+.navActive {
+  color: rgba(48,127,214,1);
+}
+
+/* about me section styling */
+
+#about {
+  padding: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.aboutText {
+  border: darkgray solid 5px;
+}
+
+#aboutMe img {
+  border-radius: 5px;
+}
+
+#aboutMe h2 {
+  margin-bottom: 25px;
+}
+
+.aboutImg {
+  max-height: 400px;
+  max-width: 250px;
+}
+
+/* Contact Form Styling */
+form {
+  width: 40%;
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid var(--dark);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+}
+
+input:focus {
+  border: 1px solid var(--secondary);
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+}
+
+textarea {
+	width: 600px;
+	height: 120px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+}
+
+#submit {
+  color: white;
+  background-color: var(--fourth);
+}
+
+/* projects styling */
+.github a {
+  text-decoration: none;
+  color: var(--fourth);
+  font-weight: bold;
+}
+
+/* resume styling */
+#download {
+  color: white;
+  background-color: var(--fourth);
+  font-size: 1rem;
+  padding: .8rem 1rem;
+  border-radius: .5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0 1px;
+}
+
+#resumeLink {
+  text-decoration: none;
+}
+
+#download:hover {
+  opacity: .8;
+}
+
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
