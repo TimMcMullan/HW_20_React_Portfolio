@@ -27,10 +27,10 @@ function Portfolio(props) {
                 <div className="col-6 p-2">
                     <div className="p-2" data-aos="fade-right" data-aos-duration="3000">
                         <h3>Password Generator</h3>
-                        <a href="https://timmcmullan.github.io/HW03_pwgen/" target="_blank">
+                        <a href="https://timmcmullan.github.io/PasswordGenerator/" target="_blank">
                             <img id= "fifty" src={passwordGenerator} style={{ width: "80%" }} alt="Password Generator" /></a>
                         <p>Never stress over password creation again</p>
-                        <p className="github"><a href="https://timmcmullan.github.io/HW03_pwgen/" target="_blank">Github</a></p>
+                        <p className="github"><a href="https://timmcmullan.github.io/PasswordGenerator" target="_blank">Github</a></p>
                     </div>
                     <div className="p-2" data-aos="fade-right" data-aos-duration="3000">
                         <h3>Pitchcatch</h3>
